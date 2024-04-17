@@ -8,6 +8,10 @@ Under the 'notebook folder':
 2. reranker
 3. RAG
 
+
+I am choosing not to upload my Analysis and Recommendation document on this experiemnt publicly in this repo, however evaluation metrics and brief analysis are included throughtout the notebooks.
+
+
 The requirements and dependencies to run locally can be found in the file 'requirements.txt.
 
 ## Setup
