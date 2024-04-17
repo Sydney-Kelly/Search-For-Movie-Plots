@@ -18,8 +18,8 @@ The requirements and dependencies to run locally can be found in the file 'requi
 ### Dataset
 Use the following code to load the dataset. NOTE: the datasets library is accessible through Hugging Face datasets.
 
-from datasets import load_dataset  
-ds = load_dataset("Coder-Dragon/wikipedia-movies", split='train[:1000]')
+`from datasets import load_dataset  
+ds = load_dataset("Coder-Dragon/wikipedia-movies", split='train[:1000]')`
 
 The dataset includes movie titles, plots, genres, actors, and some other information regarding movies. For this experiment we will only focus on the first 1,000 movies, which are movies from the 1920s or earlier. We will also only focus on querying and embedding the titles and plots.
 
