@@ -12,7 +12,7 @@ The requirements and dependencies to run locally can be found in the file 'requi
 
 ## Setup
 ### Dataset
-use the following code to load the dataset. NOTE: the datasets library is accessible through Hugging Face datasets.
+Use the following code to load the dataset. NOTE: the datasets library is accessible through Hugging Face datasets.
 
 from datasets import load_dataset  
 ds = load_dataset("Coder-Dragon/wikipedia-movies", split='train[:1000]')
